@@ -13,6 +13,7 @@
       <module>code-service</module>
       <module>code-pojo</module>
       <module>code-common</module>
+      <module>code-http-client</module>
     </modules>
 
     <name>base-parent</name>
