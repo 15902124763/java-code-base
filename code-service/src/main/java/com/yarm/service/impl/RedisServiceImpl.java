@@ -18,6 +18,7 @@ import java.util.Set;
  */
 public class RedisServiceImpl {
 
+    @SneakyThrows
     public static void main(String[] args) {
 
         // 创建并填充节点信息
@@ -50,7 +51,7 @@ public class RedisServiceImpl {
         System.out.println(getResult);
 
         // 关闭jedisCluster（程序执行完后才能关闭，内部封装了连接池）
-//        jedisCluster.close();
+        jedisCluster.close();
 
     }
 }
