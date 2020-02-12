@@ -14,6 +14,7 @@
       <module>code-pojo</module>
       <module>code-common</module>
       <module>code-http-client</module>
+        <module>code-job</module>
     </modules>
 
     <name>base-parent</name>
